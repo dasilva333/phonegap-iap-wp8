@@ -8,7 +8,7 @@ Based on the iOS plugin by Matt Kane & Guillaume Charhon
  - https://github.com/usmart/InAppPurchaseManager-EXAMPLE)
 
  
-This initial version of plugin is functional but is missing more robust error handling and the requestProductsData call is not implemented.
+This initial version of this plugin is functional but is missing more robust error handling and the requestProductsData call is not implemented.
 
 Visit my blog for instructions on how to use the plugin:
 
