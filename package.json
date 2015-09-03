@@ -1,0 +1,36 @@
+{
+  "name": "cc.tgd.cordova.iap",
+  "version": "0.0.1",
+  "description": "Cordova Purchase plugin for WP8",
+  "cordova": {
+    "id": "cc.tgd.cordova.iap",
+    "platforms": [
+      "wp8"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dasilva333/phonegap-iap-wp8.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-wp8",
+    "cordova-wp",
+    "cordova",
+    "phonegap",
+    "purchase"
+  ],
+  "scripts": {
+    "test": "make test-js",
+    "coverage": "make test-js-coverage"
+  },
+  "author": "Richard Pinedo & Toby Kavukattu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dasilva333/phonegap-iap-wp8/issues"
+  },
+  "homepage": "https://github.com/dasilva333/phonegap-iap-wp8",
+  "devDependencies": {
+    "cordova": "^3.6.3-0.2.13"
+  }
+}
