@@ -10,6 +10,6 @@ Based on the iOS plugin by Matt Kane & Guillaume Charhon
  
 This initial version of this plugin is functional but is missing more robust error handling and the requestProductsData call is not implemented.
 
-Visit my blog for instructions on how to use the plugin:
+--------------------------------
 
- - Coming Soon
+Richard Pinedo has taken over this project to try to make it compatible with Phonegap Build and npm.
