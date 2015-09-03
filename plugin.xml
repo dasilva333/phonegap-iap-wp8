@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="nl.x-services.plugins.iapm"
+        version="0.0.1">
+
+  <name>Phonegap IAP Manager for WP8</name>
+
+  <description>
+    This plugin allows you to make in app purchases for Windows Phone 8.
+  </description>
+
+  <license>MIT</license>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+  </engines>
+
+  <js-module src="www/InAppPurchaseManager.js" name="IAPM">
+    <clobbers target="window.plugins.inAppPurchaseManager" />
+  </js-module>
+
+  <!-- wp8 -->
+  <platform name="wp8">
+    <config-file target="config.xml" parent="/*">
+      <feature name="IAPM">
+        <param name="wp-package" value="IAPM"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/wp8/InAppPurchaseManager.cs" />
+  </platform>
+
+</plugin>
